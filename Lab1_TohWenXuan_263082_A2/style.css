@@ -1,0 +1,168 @@
+
+
+header{padding:30px;text-align:center;background-image:url("images/ocean.jpg");background-size:cover;background-repeat:no-repeat;height:270px;}
+#head1{font-size:400%;color:white;animation-name:float;animation-duration:3s;animation-iteration-count:infinite;}
+
+@keyframes float{
+0%{transform:translate(0px,0px);}
+50%{transform:translate(0px,-8px);}
+100%{transform:translate(0px,0px);}
+}
+#head2{color:#007DCC;font-size:200%;}
+nav{position:sticky;top:0;z-index:1000;}
+nav ul li{display:inline;}
+nav ul{display:flex;margin:0;padding:0;}
+li{flex:1;}
+button{width:100%;height:50px;background:#B1D3B9;}
+#hamIcon{display:none;}
+
+
+
+
+.page{border:1px solid blue}
+
+
+#Home{background:#eef7ff;display:flex;flex-direction:column;align-items:center;max-width:100%;min-height:100vh;background-position:center;color:#333333;}
+#smallhead1{color:#FFFAF3;background:#95CCDD;border-radius:25px;padding:10px;}
+#smallhead2{color:#191970 ;text-decoration:underline;}
+
+.titles{display:grid;grid-template-columns:1fr 1fr;gap:90px;margin-top:40px;width:70%;}
+.title{text-align:center;}
+.title img{width:350px;height:350px;border-radius:50px;border:5px solid #324AB2;transition:0.3s;}
+.title img:hover{transform: rotate(13deg) scale(1.05);}
+#expbtn{color:blue;text-decoration:underline;}
+
+
+#P{display:flex;flex-direction:column;align-items:center;text-align:center;background:#C6E6FB;}
+#pressure{font-size:300%;background:white;padding:10px;border-radius:20px;}
+#phead{color:blue;}
+.pressure1{display:grid;grid-template-columns:1fr 1fr;gap:40px;}
+.formula{background:#95CCDD;border-radius:28px;text-align:center;display:flex;flex-direction:column;
+align-items:center;justify-content:center;padding:20px;font-size:30px;color:white;width:60%;
+box-shadow:0 4px 8px 0 grey, 0 6px 20px 0 grey;width:auto;height:auto;}
+#pressurepic{border-radius:28px;box-shadow:0 4px 8px 0 grey, 0 6px 20px 0 grey;
+width:auto;height:auto;}
+.pressureexp{display:grid;grid-template-columns:1fr 1fr;gap:50px;}
+.pressureexp img{height:150px;width:auto;border:5px solid  #7B68EE}
+.pressureqns{text-align:center;}
+.pressureqns h3{font-size:200%;color:#7B68EE;background:#95CCDD;padding:5px;border-radius:20px;}
+.pressureqns p{color: #6F00FF;font-size:120%;}
+#highheel2{width:70px;}
+
+
+#showbtn{margin-top:30px;color:#0066CC;width:20%;border-radius:25px;}
+#derivation{color:#324AB2;display:none;}
+#cond{color:red;}
+
+
+
+#Hp{display:flex;flex-direction:column;align-items:center;background:#CCCCFF;}
+#Hptitle{font-size:300%;color: #00CCFF;background:white;padding:10px;border-radius:20px;}
+.Hpformula{background:#87CEEB;border-radius:28px;text-align:center;display:flex;flex-direction:column;
+align-items:center;justify-content:center;padding:20px;font-size:30px;color:white;width:60%;
+box-shadow:0 4px 8px 0 grey, 0 6px 20px 0 grey;width:auto;height:auto;}
+.Hpqns h2{background:#40E0D0;padding:20px;margin-top:50px;border:5px solid #8DB355;}
+.Hpqns h3{color:red;text-align:center;font-size:140%;border:4px dotted red;border-radius:100%;}
+#Hs{color:white;background:#00CCFF;padding:10px;border-radius:20px;border:5px dotted blue;}
+.Hsconcept{text-align:center;display:flex;flex-direction:column;align-items:center;}
+.Hsconcept li{background:white;width:70%;margin:30px auto;padding:25px;border-radius:20px;box-shadow:0 5px 15px rgba(0,0,0,.15);}
+.Hsconcept li h3{color:#205375;font-size:20px;}
+.Hsconcept li p{color:#5b7083;font-size:15px;}
+#PsPl{color:#0096c7;font-size:40px;background:#e8f9ff;padding:15px;border-radius:15px;margin-top:20px;}
+#Hsqns{color:#0077b6;font-size:18px;}
+#Hsans{color:#555;font-size:17px;}
+
+.funfact{background:#FFF8DC;width:80%;padding:35px;border-radius:25px;box-shadow:0 6px 15px rgba(0,0,0,.12);text-align:center;}
+.funfact h2{color:#f4a100;font-size:40px;}
+.funfact h3{color:#205375;font-size:28px;margin-top:25px;}
+
+
+#showans{background:#00A8CC;color:white;border:none;padding:15px;border-radius:30px;font-size:20px;}
+#ans{color:#555;display:none;}
+
+
+
+
+#KMP{display:flex;flex-direction:column;align-items:center;background:#F6F8E8;}
+#KMP h2{font-size:300%;color:#9BCEC1;background:white;padding:10px;border-radius:20px;}
+.kmpcon{background:#EAF8F5;border:3px solid #9BCEC1;width:70%;padding:25px;border-radius:20px;text-align:center;}
+.kmpcon h3{color:#2E6F64;font-size:28px;}
+.kmpcon h4{color:#444;font-size:20px;}
+#a{margin-top:100px;margin-bottom:0;font-size:25px;color:#FFAE56;}
+
+
+.kmptable{width:80%;margin:40px;background:white;border-radius:20px;box-shadow:0 8px 18px rgba(0,0,0,0.15);}
+.kmptable th{background:#95CCDD;color:white;padding:18px;font-size:24px;}
+.kmptable td{padding:20px;}
+
+.kmpqns li{background:#F4FCFA;border-left:8px solid #7BBFAE;border-radius:28px;text-align:center;display:flex;flex-direction:column;
+align-items:center;justify-content:center;padding:10px;font-size:20px;color:white;margin-top:30px;
+box-shadow:0 4px 8px 0 rgba(0,0,0,0.15), 0 6px 20px 0 rgba(0,0,0,0.15);}
+.kmpqns li h3{color:#2E6F64;font-size:23px;}
+.kmpqns li p{color:#205375;font-size:17px;}
+
+
+
+#Game{background:#FFCEE3;display:flex;flex-direction:column;align-items:center;text-align:center;}
+#Game h1{margin-top:30px;}
+.gamearea{display:flex;flex-direction:column;align-items:center;text-align:center;background:#AEE2FF;border:5px solid #ACBAC4;}
+#question{display:grid;grid-template-columns:1fr 1fr 1fr;gap:30px;}
+#question img{width:100px;height:100px;margin:30px;}
+.quiz{background:white;border:5px solid #ACBAC4;}
+.quiz button{background:#D3D3D3;padding:15px;border-radius:20px;width:40%;}
+.hide{display:none;}
+.abc{color:red;}
+
+footer{display:flex;flex-direction:row;margin:0;background:#4274D9;border:1px solid blue;flex:1;}
+#btnFS{background:#403D88;color:white;border:none;padding:15px;border-radius:30px;font-size:20px;width:30%;margin:20px;}
+#btnWS{background:#403D88;color:white;border:none;padding:15px;border-radius:30px;font-size:20px;width:30%;margin:20px;}
+footer h3{margin-top:30px;color:white;}
+
+@media (max-width:800px) {
+
+#Home{display:flex;flex-direction:column;align-items:center;text-align:center;}
+.titles{display:inline-block;width:100%;}
+
+nav ul li{display:block;}
+#hamIcon{display:block;}
+nav ul{display:none;}
+
+.menuShow{display:block;}
+	
+.pressure1{display:inline-block;}
+.formula{width:90%;display:inline-block;}
+#pressurepic{width:90%;display:inline-block;margin-top:40px;}
+.pressureexp img{width:160px;}
+
+
+.Hpformula{width:80%;display:inline-block;padding:30px;}
+.Hpformula h3{font-size:25px;}
+
+
+
+#KMP h2{text-align:center;}
+#a{text-align:center;}
+.kmptable{font-size:12px;}
+
+.kmpqns{display:flex;flex-direction:column;align-items:center;width:100%;padding:0;}
+.kmpqns li{width:80%;}
+
+footer{align-items:center;}
+#btnFS{width:100%;}
+#btnWS{width:100%;}
+footer h3{display:none;}
+#qr{display:none;}
+
+}
+
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+}
