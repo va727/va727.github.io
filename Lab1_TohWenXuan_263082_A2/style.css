@@ -8,7 +8,7 @@ header{padding:30px;text-align:center;background-image:url("images/ocean.jpg");b
 50%{transform:translate(0px,-8px);}
 100%{transform:translate(0px,0px);}
 }
-#head2{color:#007DCC;font-size:200%;}
+#head2{color:#007DCC;font-size:150%;}
 nav{position:sticky;top:0;z-index:1000;}
 nav ul li{display:inline;}
 nav ul{display:flex;margin:0;padding:0;}
@@ -117,6 +117,7 @@ footer{display:flex;flex-direction:row;margin:0;background:#4274D9;border:1px so
 #btnFS{background:#403D88;color:white;border:none;padding:15px;border-radius:30px;font-size:20px;width:30%;margin:20px;}
 #btnWS{background:#403D88;color:white;border:none;padding:15px;border-radius:30px;font-size:20px;width:30%;margin:20px;}
 footer h3{margin-top:30px;color:white;}
+#qr{height:100px;}
 
 @media (max-width:800px) {
 
@@ -147,11 +148,11 @@ nav ul{display:none;}
 .kmpqns{display:flex;flex-direction:column;align-items:center;width:100%;padding:0;}
 .kmpqns li{width:80%;}
 
-footer{align-items:center;}
+footer{align-items:center;display:none;}
 #btnFS{width:100%;}
 #btnWS{width:100%;}
 footer h3{display:none;}
-#qr{display:none;}
+
 
 }
 
