@@ -394,7 +394,7 @@ const correctans3 = document.querySelector("#correctans3");
 const correctans4 = document.querySelector("#correctans4");
 const correctans5 = document.querySelector("#correctans5");
 const quizresult = document.querySelector("#quizresult");
-var q1,q2,q3,q4,q5
+var q1,q2,q3,q4,q5;
 let score2=0;
 function CheckAns(){
 score2=0; 
